@@ -1,0 +1,46 @@
+RPA - Robotic Process Automation
+
+UiPath
+- RPA Tool / Platform
+- was introduced in 2005
+
+3 Products of UiPath
+- UiPath Studio
+  - GUI based dashboard
+  - we can create automation workflow
+- UiPath Robot
+  - after designing the workflow in studio, we need to execute that process. Robot will run those steps one by one
+- UiPath Orchestrator
+  - web based application, you can deploy, schedule, monitor or manage robots & processes
+
+Steps for UiPath
+1. Create Process
+2. Go Inside main.xaml
+3. Add Workflow type
+   - Sequence (we pass actions that will be performed sequentially)
+   - Flowchart
+   - State Machine
+   - Global Header
+
+Types of Bots
+- Attended
+  - robots are usually triggered by user events
+  - attended robots can be classified into :
+    - Studio
+    - StudioX
+    - StudioPro
+- Unattended
+  - autonomous robots that do not require human intervention
+
+
+Architecture of UiPath
+- Client Side and Server Side Detailing
+- 3 Layered Detailing
+
+
+
+
+
+
+
+
