@@ -1,0 +1,45 @@
+Data Types in UiPath
+- Test - String
+- Number - int
+- Boolean
+- Array
+- Data Table
+
+1. Add two numbers in UiPath
+  - Create Process
+  - Add Sequence
+  - Create 2 variables of integer type
+  - Add 2 Input Dialog
+  - Assign the sum of 2 numbers in result var
+  - Show Output
+
+Flowchart
+
+2. Build basic game to guess the number that is generated randomly by CPU in a range of 1 to 10
+  - Create Process
+  - Add flowchart workflow
+  - Create 2 variables - random_num, guess
+  - To generate random number UiPath has a function 
+    = New Random().Next(1,10) and assign it to random_num varaible
+  - Now take input from user and assign it to guess variable
+  - Write conditions to check
+    - if guess = random_num      -> show message
+    - else if guess < random_num -> show message
+    - else if guess > random_num -> show message
+
+Recorders
+- Basic
+- Desktop
+- Web
+- Image
+- Native Citrix
+- Computer Vision
+
+Data Scraping
+Automate Excel
+
+
+
+
+
+
